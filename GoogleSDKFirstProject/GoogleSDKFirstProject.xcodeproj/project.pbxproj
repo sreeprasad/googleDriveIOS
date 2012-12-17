@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0044A138167E9AC500CCC76C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A137167E9AC500CCC76C /* UIKit.framework */; };
+		0044A13A167E9AC500CCC76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A139167E9AC500CCC76C /* Foundation.framework */; };
+		0044A13C167E9AC500CCC76C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A13B167E9AC500CCC76C /* CoreGraphics.framework */; };
+		0044A142167E9AC500CCC76C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0044A140167E9AC500CCC76C /* InfoPlist.strings */; };
+		0044A144167E9AC500CCC76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A143167E9AC500CCC76C /* main.m */; };
+		0044A148167E9AC500CCC76C /* BOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A147167E9AC500CCC76C /* BOAppDelegate.m */; };
+		0044A14A167E9AC500CCC76C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0044A149167E9AC500CCC76C /* Default.png */; };
+		0044A14C167E9AC500CCC76C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0044A14B167E9AC500CCC76C /* Default@2x.png */; };
+		0044A14E167E9AC500CCC76C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0044A14D167E9AC500CCC76C /* Default-568h@2x.png */; };
+		0044A151167E9AC500CCC76C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0044A14F167E9AC500CCC76C /* MainStoryboard.storyboard */; };
+		0044A154167E9AC500CCC76C /* BOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A153167E9AC500CCC76C /* BOViewController.m */; };
+		0044A15C167E9AC500CCC76C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A15B167E9AC500CCC76C /* SenTestingKit.framework */; };
+		0044A15D167E9AC500CCC76C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A137167E9AC500CCC76C /* UIKit.framework */; };
+		0044A15E167E9AC500CCC76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A139167E9AC500CCC76C /* Foundation.framework */; };
+		0044A166167E9AC500CCC76C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0044A164167E9AC500CCC76C /* InfoPlist.strings */; };
+		0044A169167E9AC500CCC76C /* GoogleSDKFirstProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A168167E9AC500CCC76C /* GoogleSDKFirstProjectTests.m */; };
+		0044A18A167E9C6900CCC76C /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A189167E9C6900CCC76C /* libGTLTouchStaticLib.a */; };
+		0044A18C167E9C7400CCC76C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A18B167E9C7400CCC76C /* Security.framework */; };
+		0044A18E167E9C7E00CCC76C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A18D167E9C7E00CCC76C /* MobileCoreServices.framework */; };
+		0044A190167E9DC100CCC76C /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0044A18F167E9DC100CCC76C /* GTMOAuth2ViewTouch.xib */; };
+		0044A193167E9EA400CCC76C /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A191167E9EA400CCC76C /* GTLDrive_Sources.m */; };
+		0044A1C2167EA18700CCC76C /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A195167EA18600CCC76C /* GTLDriveAbout.m */; };
+		0044A1C3167EA18700CCC76C /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A195167EA18600CCC76C /* GTLDriveAbout.m */; };
+		0044A1C4167EA18700CCC76C /* GTLDriveApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A197167EA18600CCC76C /* GTLDriveApp.m */; };
+		0044A1C5167EA18700CCC76C /* GTLDriveApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A197167EA18600CCC76C /* GTLDriveApp.m */; };
+		0044A1C6167EA18700CCC76C /* GTLDriveAppList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A199167EA18600CCC76C /* GTLDriveAppList.m */; };
+		0044A1C7167EA18700CCC76C /* GTLDriveAppList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A199167EA18600CCC76C /* GTLDriveAppList.m */; };
+		0044A1C8167EA18700CCC76C /* GTLDriveChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19B167EA18600CCC76C /* GTLDriveChange.m */; };
+		0044A1C9167EA18700CCC76C /* GTLDriveChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19B167EA18600CCC76C /* GTLDriveChange.m */; };
+		0044A1CA167EA18700CCC76C /* GTLDriveChangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19D167EA18600CCC76C /* GTLDriveChangeList.m */; };
+		0044A1CB167EA18700CCC76C /* GTLDriveChangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19D167EA18600CCC76C /* GTLDriveChangeList.m */; };
+		0044A1CC167EA18700CCC76C /* GTLDriveChildList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19F167EA18600CCC76C /* GTLDriveChildList.m */; };
+		0044A1CD167EA18700CCC76C /* GTLDriveChildList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A19F167EA18600CCC76C /* GTLDriveChildList.m */; };
+		0044A1CE167EA18700CCC76C /* GTLDriveChildReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A1167EA18600CCC76C /* GTLDriveChildReference.m */; };
+		0044A1CF167EA18700CCC76C /* GTLDriveChildReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A1167EA18600CCC76C /* GTLDriveChildReference.m */; };
+		0044A1D0167EA18700CCC76C /* GTLDriveComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A3167EA18600CCC76C /* GTLDriveComment.m */; };
+		0044A1D1167EA18700CCC76C /* GTLDriveComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A3167EA18600CCC76C /* GTLDriveComment.m */; };
+		0044A1D2167EA18700CCC76C /* GTLDriveCommentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A5167EA18600CCC76C /* GTLDriveCommentList.m */; };
+		0044A1D3167EA18700CCC76C /* GTLDriveCommentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A5167EA18600CCC76C /* GTLDriveCommentList.m */; };
+		0044A1D4167EA18700CCC76C /* GTLDriveCommentReply.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A7167EA18600CCC76C /* GTLDriveCommentReply.m */; };
+		0044A1D5167EA18700CCC76C /* GTLDriveCommentReply.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A7167EA18600CCC76C /* GTLDriveCommentReply.m */; };
+		0044A1D6167EA18700CCC76C /* GTLDriveCommentReplyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A9167EA18600CCC76C /* GTLDriveCommentReplyList.m */; };
+		0044A1D7167EA18700CCC76C /* GTLDriveCommentReplyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1A9167EA18600CCC76C /* GTLDriveCommentReplyList.m */; };
+		0044A1D8167EA18700CCC76C /* GTLDriveConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AB167EA18600CCC76C /* GTLDriveConstants.m */; };
+		0044A1D9167EA18700CCC76C /* GTLDriveConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AB167EA18600CCC76C /* GTLDriveConstants.m */; };
+		0044A1DA167EA18700CCC76C /* GTLDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AD167EA18600CCC76C /* GTLDriveFile.m */; };
+		0044A1DB167EA18700CCC76C /* GTLDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AD167EA18600CCC76C /* GTLDriveFile.m */; };
+		0044A1DC167EA18700CCC76C /* GTLDriveFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AF167EA18600CCC76C /* GTLDriveFileList.m */; };
+		0044A1DD167EA18700CCC76C /* GTLDriveFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1AF167EA18600CCC76C /* GTLDriveFileList.m */; };
+		0044A1DE167EA18700CCC76C /* GTLDriveParentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B1167EA18600CCC76C /* GTLDriveParentList.m */; };
+		0044A1DF167EA18700CCC76C /* GTLDriveParentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B1167EA18600CCC76C /* GTLDriveParentList.m */; };
+		0044A1E0167EA18700CCC76C /* GTLDriveParentReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B3167EA18600CCC76C /* GTLDriveParentReference.m */; };
+		0044A1E1167EA18700CCC76C /* GTLDriveParentReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B3167EA18600CCC76C /* GTLDriveParentReference.m */; };
+		0044A1E2167EA18700CCC76C /* GTLDrivePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B5167EA18600CCC76C /* GTLDrivePermission.m */; };
+		0044A1E3167EA18700CCC76C /* GTLDrivePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B5167EA18600CCC76C /* GTLDrivePermission.m */; };
+		0044A1E4167EA18700CCC76C /* GTLDrivePermissionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B7167EA18600CCC76C /* GTLDrivePermissionList.m */; };
+		0044A1E5167EA18700CCC76C /* GTLDrivePermissionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B7167EA18600CCC76C /* GTLDrivePermissionList.m */; };
+		0044A1E6167EA18700CCC76C /* GTLDriveRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B9167EA18600CCC76C /* GTLDriveRevision.m */; };
+		0044A1E7167EA18700CCC76C /* GTLDriveRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1B9167EA18600CCC76C /* GTLDriveRevision.m */; };
+		0044A1E8167EA18700CCC76C /* GTLDriveRevisionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BB167EA18600CCC76C /* GTLDriveRevisionList.m */; };
+		0044A1E9167EA18700CCC76C /* GTLDriveRevisionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BB167EA18600CCC76C /* GTLDriveRevisionList.m */; };
+		0044A1EA167EA18700CCC76C /* GTLDriveUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BD167EA18600CCC76C /* GTLDriveUser.m */; };
+		0044A1EB167EA18700CCC76C /* GTLDriveUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BD167EA18600CCC76C /* GTLDriveUser.m */; };
+		0044A1EC167EA18700CCC76C /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BF167EA18600CCC76C /* GTLQueryDrive.m */; };
+		0044A1ED167EA18700CCC76C /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1BF167EA18600CCC76C /* GTLQueryDrive.m */; };
+		0044A1EE167EA18700CCC76C /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1C1167EA18600CCC76C /* GTLServiceDrive.m */; };
+		0044A1EF167EA18700CCC76C /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044A1C1167EA18600CCC76C /* GTLServiceDrive.m */; };
+		0044A1F1167EA29500CCC76C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0044A1F0167EA29500CCC76C /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0044A15F167E9AC500CCC76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0044A12A167E9AC400CCC76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0044A132167E9AC400CCC76C;
+			remoteInfo = GoogleSDKFirstProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0044A133167E9AC500CCC76C /* GoogleSDKFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSDKFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0044A137167E9AC500CCC76C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0044A139167E9AC500CCC76C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0044A13B167E9AC500CCC76C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0044A13F167E9AC500CCC76C /* GoogleSDKFirstProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleSDKFirstProject-Info.plist"; sourceTree = "<group>"; };
+		0044A141167E9AC500CCC76C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0044A143167E9AC500CCC76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0044A145167E9AC500CCC76C /* GoogleSDKFirstProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleSDKFirstProject-Prefix.pch"; sourceTree = "<group>"; };
+		0044A146167E9AC500CCC76C /* BOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOAppDelegate.h; sourceTree = "<group>"; };
+		0044A147167E9AC500CCC76C /* BOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOAppDelegate.m; sourceTree = "<group>"; };
+		0044A149167E9AC500CCC76C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0044A14B167E9AC500CCC76C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0044A14D167E9AC500CCC76C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0044A150167E9AC500CCC76C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0044A152167E9AC500CCC76C /* BOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOViewController.h; sourceTree = "<group>"; };
+		0044A153167E9AC500CCC76C /* BOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOViewController.m; sourceTree = "<group>"; };
+		0044A15A167E9AC500CCC76C /* GoogleSDKFirstProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSDKFirstProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0044A15B167E9AC500CCC76C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0044A163167E9AC500CCC76C /* GoogleSDKFirstProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleSDKFirstProjectTests-Info.plist"; sourceTree = "<group>"; };
+		0044A165167E9AC500CCC76C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0044A167167E9AC500CCC76C /* GoogleSDKFirstProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleSDKFirstProjectTests.h; sourceTree = "<group>"; };
+		0044A168167E9AC500CCC76C /* GoogleSDKFirstProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleSDKFirstProjectTests.m; sourceTree = "<group>"; };
+		0044A189167E9C6900CCC76C /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGTLTouchStaticLib.a; path = "../../googledriveios/google-api-objectivec-client-read-only/Source/build/Release-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
+		0044A18B167E9C7400CCC76C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0044A18D167E9C7E00CCC76C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0044A18F167E9DC100CCC76C /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		0044A191167E9EA400CCC76C /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		0044A192167E9EA400CCC76C /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		0044A194167EA18600CCC76C /* GTLDriveAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveAbout.h; sourceTree = "<group>"; };
+		0044A195167EA18600CCC76C /* GTLDriveAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveAbout.m; sourceTree = "<group>"; };
+		0044A196167EA18600CCC76C /* GTLDriveApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveApp.h; sourceTree = "<group>"; };
+		0044A197167EA18600CCC76C /* GTLDriveApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveApp.m; sourceTree = "<group>"; };
+		0044A198167EA18600CCC76C /* GTLDriveAppList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveAppList.h; sourceTree = "<group>"; };
+		0044A199167EA18600CCC76C /* GTLDriveAppList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveAppList.m; sourceTree = "<group>"; };
+		0044A19A167EA18600CCC76C /* GTLDriveChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChange.h; sourceTree = "<group>"; };
+		0044A19B167EA18600CCC76C /* GTLDriveChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChange.m; sourceTree = "<group>"; };
+		0044A19C167EA18600CCC76C /* GTLDriveChangeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChangeList.h; sourceTree = "<group>"; };
+		0044A19D167EA18600CCC76C /* GTLDriveChangeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChangeList.m; sourceTree = "<group>"; };
+		0044A19E167EA18600CCC76C /* GTLDriveChildList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChildList.h; sourceTree = "<group>"; };
+		0044A19F167EA18600CCC76C /* GTLDriveChildList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChildList.m; sourceTree = "<group>"; };
+		0044A1A0167EA18600CCC76C /* GTLDriveChildReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChildReference.h; sourceTree = "<group>"; };
+		0044A1A1167EA18600CCC76C /* GTLDriveChildReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChildReference.m; sourceTree = "<group>"; };
+		0044A1A2167EA18600CCC76C /* GTLDriveComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveComment.h; sourceTree = "<group>"; };
+		0044A1A3167EA18600CCC76C /* GTLDriveComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveComment.m; sourceTree = "<group>"; };
+		0044A1A4167EA18600CCC76C /* GTLDriveCommentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveCommentList.h; sourceTree = "<group>"; };
+		0044A1A5167EA18600CCC76C /* GTLDriveCommentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveCommentList.m; sourceTree = "<group>"; };
+		0044A1A6167EA18600CCC76C /* GTLDriveCommentReply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveCommentReply.h; sourceTree = "<group>"; };
+		0044A1A7167EA18600CCC76C /* GTLDriveCommentReply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveCommentReply.m; sourceTree = "<group>"; };
+		0044A1A8167EA18600CCC76C /* GTLDriveCommentReplyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveCommentReplyList.h; sourceTree = "<group>"; };
+		0044A1A9167EA18600CCC76C /* GTLDriveCommentReplyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveCommentReplyList.m; sourceTree = "<group>"; };
+		0044A1AA167EA18600CCC76C /* GTLDriveConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveConstants.h; sourceTree = "<group>"; };
+		0044A1AB167EA18600CCC76C /* GTLDriveConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveConstants.m; sourceTree = "<group>"; };
+		0044A1AC167EA18600CCC76C /* GTLDriveFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveFile.h; sourceTree = "<group>"; };
+		0044A1AD167EA18600CCC76C /* GTLDriveFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveFile.m; sourceTree = "<group>"; };
+		0044A1AE167EA18600CCC76C /* GTLDriveFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveFileList.h; sourceTree = "<group>"; };
+		0044A1AF167EA18600CCC76C /* GTLDriveFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveFileList.m; sourceTree = "<group>"; };
+		0044A1B0167EA18600CCC76C /* GTLDriveParentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveParentList.h; sourceTree = "<group>"; };
+		0044A1B1167EA18600CCC76C /* GTLDriveParentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveParentList.m; sourceTree = "<group>"; };
+		0044A1B2167EA18600CCC76C /* GTLDriveParentReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveParentReference.h; sourceTree = "<group>"; };
+		0044A1B3167EA18600CCC76C /* GTLDriveParentReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveParentReference.m; sourceTree = "<group>"; };
+		0044A1B4167EA18600CCC76C /* GTLDrivePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrivePermission.h; sourceTree = "<group>"; };
+		0044A1B5167EA18600CCC76C /* GTLDrivePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrivePermission.m; sourceTree = "<group>"; };
+		0044A1B6167EA18600CCC76C /* GTLDrivePermissionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrivePermissionList.h; sourceTree = "<group>"; };
+		0044A1B7167EA18600CCC76C /* GTLDrivePermissionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrivePermissionList.m; sourceTree = "<group>"; };
+		0044A1B8167EA18600CCC76C /* GTLDriveRevision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveRevision.h; sourceTree = "<group>"; };
+		0044A1B9167EA18600CCC76C /* GTLDriveRevision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveRevision.m; sourceTree = "<group>"; };
+		0044A1BA167EA18600CCC76C /* GTLDriveRevisionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveRevisionList.h; sourceTree = "<group>"; };
+		0044A1BB167EA18600CCC76C /* GTLDriveRevisionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveRevisionList.m; sourceTree = "<group>"; };
+		0044A1BC167EA18600CCC76C /* GTLDriveUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveUser.h; sourceTree = "<group>"; };
+		0044A1BD167EA18600CCC76C /* GTLDriveUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveUser.m; sourceTree = "<group>"; };
+		0044A1BE167EA18600CCC76C /* GTLQueryDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryDrive.h; sourceTree = "<group>"; };
+		0044A1BF167EA18600CCC76C /* GTLQueryDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryDrive.m; sourceTree = "<group>"; };
+		0044A1C0167EA18600CCC76C /* GTLServiceDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceDrive.h; sourceTree = "<group>"; };
+		0044A1C1167EA18600CCC76C /* GTLServiceDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceDrive.m; sourceTree = "<group>"; };
+		0044A1F0167EA29500CCC76C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0044A130167E9AC400CCC76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A1F1167EA29500CCC76C /* SystemConfiguration.framework in Frameworks */,
+				0044A18E167E9C7E00CCC76C /* MobileCoreServices.framework in Frameworks */,
+				0044A18C167E9C7400CCC76C /* Security.framework in Frameworks */,
+				0044A18A167E9C6900CCC76C /* libGTLTouchStaticLib.a in Frameworks */,
+				0044A138167E9AC500CCC76C /* UIKit.framework in Frameworks */,
+				0044A13A167E9AC500CCC76C /* Foundation.framework in Frameworks */,
+				0044A13C167E9AC500CCC76C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0044A156167E9AC500CCC76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A15C167E9AC500CCC76C /* SenTestingKit.framework in Frameworks */,
+				0044A15D167E9AC500CCC76C /* UIKit.framework in Frameworks */,
+				0044A15E167E9AC500CCC76C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0044A128167E9AC400CCC76C = {
+			isa = PBXGroup;
+			children = (
+				0044A1F0167EA29500CCC76C /* SystemConfiguration.framework */,
+				0044A18D167E9C7E00CCC76C /* MobileCoreServices.framework */,
+				0044A18B167E9C7400CCC76C /* Security.framework */,
+				0044A189167E9C6900CCC76C /* libGTLTouchStaticLib.a */,
+				0044A13D167E9AC500CCC76C /* GoogleSDKFirstProject */,
+				0044A161167E9AC500CCC76C /* GoogleSDKFirstProjectTests */,
+				0044A136167E9AC500CCC76C /* Frameworks */,
+				0044A134167E9AC500CCC76C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0044A134167E9AC500CCC76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0044A133167E9AC500CCC76C /* GoogleSDKFirstProject.app */,
+				0044A15A167E9AC500CCC76C /* GoogleSDKFirstProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0044A136167E9AC500CCC76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0044A137167E9AC500CCC76C /* UIKit.framework */,
+				0044A139167E9AC500CCC76C /* Foundation.framework */,
+				0044A13B167E9AC500CCC76C /* CoreGraphics.framework */,
+				0044A15B167E9AC500CCC76C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0044A13D167E9AC500CCC76C /* GoogleSDKFirstProject */ = {
+			isa = PBXGroup;
+			children = (
+				0044A146167E9AC500CCC76C /* BOAppDelegate.h */,
+				0044A147167E9AC500CCC76C /* BOAppDelegate.m */,
+				0044A191167E9EA400CCC76C /* GTLDrive_Sources.m */,
+				0044A194167EA18600CCC76C /* GTLDriveAbout.h */,
+				0044A195167EA18600CCC76C /* GTLDriveAbout.m */,
+				0044A196167EA18600CCC76C /* GTLDriveApp.h */,
+				0044A197167EA18600CCC76C /* GTLDriveApp.m */,
+				0044A198167EA18600CCC76C /* GTLDriveAppList.h */,
+				0044A199167EA18600CCC76C /* GTLDriveAppList.m */,
+				0044A19A167EA18600CCC76C /* GTLDriveChange.h */,
+				0044A19B167EA18600CCC76C /* GTLDriveChange.m */,
+				0044A19C167EA18600CCC76C /* GTLDriveChangeList.h */,
+				0044A19D167EA18600CCC76C /* GTLDriveChangeList.m */,
+				0044A19E167EA18600CCC76C /* GTLDriveChildList.h */,
+				0044A19F167EA18600CCC76C /* GTLDriveChildList.m */,
+				0044A1A0167EA18600CCC76C /* GTLDriveChildReference.h */,
+				0044A1A1167EA18600CCC76C /* GTLDriveChildReference.m */,
+				0044A1A2167EA18600CCC76C /* GTLDriveComment.h */,
+				0044A1A3167EA18600CCC76C /* GTLDriveComment.m */,
+				0044A1A4167EA18600CCC76C /* GTLDriveCommentList.h */,
+				0044A1A5167EA18600CCC76C /* GTLDriveCommentList.m */,
+				0044A1A6167EA18600CCC76C /* GTLDriveCommentReply.h */,
+				0044A1A7167EA18600CCC76C /* GTLDriveCommentReply.m */,
+				0044A1A8167EA18600CCC76C /* GTLDriveCommentReplyList.h */,
+				0044A1A9167EA18600CCC76C /* GTLDriveCommentReplyList.m */,
+				0044A1AA167EA18600CCC76C /* GTLDriveConstants.h */,
+				0044A1AB167EA18600CCC76C /* GTLDriveConstants.m */,
+				0044A1AC167EA18600CCC76C /* GTLDriveFile.h */,
+				0044A1AD167EA18600CCC76C /* GTLDriveFile.m */,
+				0044A1AE167EA18600CCC76C /* GTLDriveFileList.h */,
+				0044A1AF167EA18600CCC76C /* GTLDriveFileList.m */,
+				0044A1B0167EA18600CCC76C /* GTLDriveParentList.h */,
+				0044A1B1167EA18600CCC76C /* GTLDriveParentList.m */,
+				0044A1B2167EA18600CCC76C /* GTLDriveParentReference.h */,
+				0044A1B3167EA18600CCC76C /* GTLDriveParentReference.m */,
+				0044A1B4167EA18600CCC76C /* GTLDrivePermission.h */,
+				0044A1B5167EA18600CCC76C /* GTLDrivePermission.m */,
+				0044A1B6167EA18600CCC76C /* GTLDrivePermissionList.h */,
+				0044A1B7167EA18600CCC76C /* GTLDrivePermissionList.m */,
+				0044A1B8167EA18600CCC76C /* GTLDriveRevision.h */,
+				0044A1B9167EA18600CCC76C /* GTLDriveRevision.m */,
+				0044A1BA167EA18600CCC76C /* GTLDriveRevisionList.h */,
+				0044A1BB167EA18600CCC76C /* GTLDriveRevisionList.m */,
+				0044A1BC167EA18600CCC76C /* GTLDriveUser.h */,
+				0044A1BD167EA18600CCC76C /* GTLDriveUser.m */,
+				0044A1BE167EA18600CCC76C /* GTLQueryDrive.h */,
+				0044A1BF167EA18600CCC76C /* GTLQueryDrive.m */,
+				0044A1C0167EA18600CCC76C /* GTLServiceDrive.h */,
+				0044A1C1167EA18600CCC76C /* GTLServiceDrive.m */,
+				0044A192167E9EA400CCC76C /* GTLDrive.h */,
+				0044A14F167E9AC500CCC76C /* MainStoryboard.storyboard */,
+				0044A152167E9AC500CCC76C /* BOViewController.h */,
+				0044A153167E9AC500CCC76C /* BOViewController.m */,
+				0044A13E167E9AC500CCC76C /* Supporting Files */,
+			);
+			path = GoogleSDKFirstProject;
+			sourceTree = "<group>";
+		};
+		0044A13E167E9AC500CCC76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0044A13F167E9AC500CCC76C /* GoogleSDKFirstProject-Info.plist */,
+				0044A18F167E9DC100CCC76C /* GTMOAuth2ViewTouch.xib */,
+				0044A140167E9AC500CCC76C /* InfoPlist.strings */,
+				0044A143167E9AC500CCC76C /* main.m */,
+				0044A145167E9AC500CCC76C /* GoogleSDKFirstProject-Prefix.pch */,
+				0044A149167E9AC500CCC76C /* Default.png */,
+				0044A14B167E9AC500CCC76C /* Default@2x.png */,
+				0044A14D167E9AC500CCC76C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0044A161167E9AC500CCC76C /* GoogleSDKFirstProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0044A167167E9AC500CCC76C /* GoogleSDKFirstProjectTests.h */,
+				0044A168167E9AC500CCC76C /* GoogleSDKFirstProjectTests.m */,
+				0044A162167E9AC500CCC76C /* Supporting Files */,
+			);
+			path = GoogleSDKFirstProjectTests;
+			sourceTree = "<group>";
+		};
+		0044A162167E9AC500CCC76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0044A163167E9AC500CCC76C /* GoogleSDKFirstProjectTests-Info.plist */,
+				0044A164167E9AC500CCC76C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0044A132167E9AC400CCC76C /* GoogleSDKFirstProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0044A16C167E9AC500CCC76C /* Build configuration list for PBXNativeTarget "GoogleSDKFirstProject" */;
+			buildPhases = (
+				0044A12F167E9AC400CCC76C /* Sources */,
+				0044A130167E9AC400CCC76C /* Frameworks */,
+				0044A131167E9AC400CCC76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSDKFirstProject;
+			productName = GoogleSDKFirstProject;
+			productReference = 0044A133167E9AC500CCC76C /* GoogleSDKFirstProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0044A159167E9AC500CCC76C /* GoogleSDKFirstProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0044A16F167E9AC500CCC76C /* Build configuration list for PBXNativeTarget "GoogleSDKFirstProjectTests" */;
+			buildPhases = (
+				0044A155167E9AC500CCC76C /* Sources */,
+				0044A156167E9AC500CCC76C /* Frameworks */,
+				0044A157167E9AC500CCC76C /* Resources */,
+				0044A158167E9AC500CCC76C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0044A160167E9AC500CCC76C /* PBXTargetDependency */,
+			);
+			name = GoogleSDKFirstProjectTests;
+			productName = GoogleSDKFirstProjectTests;
+			productReference = 0044A15A167E9AC500CCC76C /* GoogleSDKFirstProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0044A12A167E9AC400CCC76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BO;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sreeprasad;
+			};
+			buildConfigurationList = 0044A12D167E9AC400CCC76C /* Build configuration list for PBXProject "GoogleSDKFirstProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0044A128167E9AC400CCC76C;
+			productRefGroup = 0044A134167E9AC500CCC76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0044A132167E9AC400CCC76C /* GoogleSDKFirstProject */,
+				0044A159167E9AC500CCC76C /* GoogleSDKFirstProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0044A131167E9AC400CCC76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A142167E9AC500CCC76C /* InfoPlist.strings in Resources */,
+				0044A14A167E9AC500CCC76C /* Default.png in Resources */,
+				0044A14C167E9AC500CCC76C /* Default@2x.png in Resources */,
+				0044A14E167E9AC500CCC76C /* Default-568h@2x.png in Resources */,
+				0044A151167E9AC500CCC76C /* MainStoryboard.storyboard in Resources */,
+				0044A190167E9DC100CCC76C /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0044A157167E9AC500CCC76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A166167E9AC500CCC76C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0044A158167E9AC500CCC76C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0044A12F167E9AC400CCC76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A144167E9AC500CCC76C /* main.m in Sources */,
+				0044A148167E9AC500CCC76C /* BOAppDelegate.m in Sources */,
+				0044A154167E9AC500CCC76C /* BOViewController.m in Sources */,
+				0044A1C2167EA18700CCC76C /* GTLDriveAbout.m in Sources */,
+				0044A1C4167EA18700CCC76C /* GTLDriveApp.m in Sources */,
+				0044A1C6167EA18700CCC76C /* GTLDriveAppList.m in Sources */,
+				0044A1C8167EA18700CCC76C /* GTLDriveChange.m in Sources */,
+				0044A1CA167EA18700CCC76C /* GTLDriveChangeList.m in Sources */,
+				0044A1CC167EA18700CCC76C /* GTLDriveChildList.m in Sources */,
+				0044A1CE167EA18700CCC76C /* GTLDriveChildReference.m in Sources */,
+				0044A1D0167EA18700CCC76C /* GTLDriveComment.m in Sources */,
+				0044A1D2167EA18700CCC76C /* GTLDriveCommentList.m in Sources */,
+				0044A1D4167EA18700CCC76C /* GTLDriveCommentReply.m in Sources */,
+				0044A1D6167EA18700CCC76C /* GTLDriveCommentReplyList.m in Sources */,
+				0044A1D8167EA18700CCC76C /* GTLDriveConstants.m in Sources */,
+				0044A1DA167EA18700CCC76C /* GTLDriveFile.m in Sources */,
+				0044A1DC167EA18700CCC76C /* GTLDriveFileList.m in Sources */,
+				0044A1DE167EA18700CCC76C /* GTLDriveParentList.m in Sources */,
+				0044A1E0167EA18700CCC76C /* GTLDriveParentReference.m in Sources */,
+				0044A1E2167EA18700CCC76C /* GTLDrivePermission.m in Sources */,
+				0044A1E4167EA18700CCC76C /* GTLDrivePermissionList.m in Sources */,
+				0044A1E6167EA18700CCC76C /* GTLDriveRevision.m in Sources */,
+				0044A1E8167EA18700CCC76C /* GTLDriveRevisionList.m in Sources */,
+				0044A1EA167EA18700CCC76C /* GTLDriveUser.m in Sources */,
+				0044A1EC167EA18700CCC76C /* GTLQueryDrive.m in Sources */,
+				0044A1EE167EA18700CCC76C /* GTLServiceDrive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0044A155167E9AC500CCC76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A169167E9AC500CCC76C /* GoogleSDKFirstProjectTests.m in Sources */,
+				0044A193167E9EA400CCC76C /* GTLDrive_Sources.m in Sources */,
+				0044A1C3167EA18700CCC76C /* GTLDriveAbout.m in Sources */,
+				0044A1C5167EA18700CCC76C /* GTLDriveApp.m in Sources */,
+				0044A1C7167EA18700CCC76C /* GTLDriveAppList.m in Sources */,
+				0044A1C9167EA18700CCC76C /* GTLDriveChange.m in Sources */,
+				0044A1CB167EA18700CCC76C /* GTLDriveChangeList.m in Sources */,
+				0044A1CD167EA18700CCC76C /* GTLDriveChildList.m in Sources */,
+				0044A1CF167EA18700CCC76C /* GTLDriveChildReference.m in Sources */,
+				0044A1D1167EA18700CCC76C /* GTLDriveComment.m in Sources */,
+				0044A1D3167EA18700CCC76C /* GTLDriveCommentList.m in Sources */,
+				0044A1D5167EA18700CCC76C /* GTLDriveCommentReply.m in Sources */,
+				0044A1D7167EA18700CCC76C /* GTLDriveCommentReplyList.m in Sources */,
+				0044A1D9167EA18700CCC76C /* GTLDriveConstants.m in Sources */,
+				0044A1DB167EA18700CCC76C /* GTLDriveFile.m in Sources */,
+				0044A1DD167EA18700CCC76C /* GTLDriveFileList.m in Sources */,
+				0044A1DF167EA18700CCC76C /* GTLDriveParentList.m in Sources */,
+				0044A1E1167EA18700CCC76C /* GTLDriveParentReference.m in Sources */,
+				0044A1E3167EA18700CCC76C /* GTLDrivePermission.m in Sources */,
+				0044A1E5167EA18700CCC76C /* GTLDrivePermissionList.m in Sources */,
+				0044A1E7167EA18700CCC76C /* GTLDriveRevision.m in Sources */,
+				0044A1E9167EA18700CCC76C /* GTLDriveRevisionList.m in Sources */,
+				0044A1EB167EA18700CCC76C /* GTLDriveUser.m in Sources */,
+				0044A1ED167EA18700CCC76C /* GTLQueryDrive.m in Sources */,
+				0044A1EF167EA18700CCC76C /* GTLServiceDrive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0044A160167E9AC500CCC76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0044A132167E9AC400CCC76C /* GoogleSDKFirstProject */;
+			targetProxy = 0044A15F167E9AC500CCC76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0044A140167E9AC500CCC76C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0044A141167E9AC500CCC76C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0044A14F167E9AC500CCC76C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0044A150167E9AC500CCC76C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0044A164167E9AC500CCC76C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0044A165167E9AC500CCC76C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0044A16A167E9AC500CCC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0044A16B167E9AC500CCC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0044A16D167E9AC500CCC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSDKFirstProject/GoogleSDKFirstProject-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSDKFirstProject/GoogleSDKFirstProject-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/github/googledriveios/google-api-objectivec-client-read-only/Source/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0044A16E167E9AC500CCC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSDKFirstProject/GoogleSDKFirstProject-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSDKFirstProject/GoogleSDKFirstProject-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/github/googledriveios/google-api-objectivec-client-read-only/Source/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0044A170167E9AC500CCC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleSDKFirstProject.app/GoogleSDKFirstProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSDKFirstProject/GoogleSDKFirstProject-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSDKFirstProjectTests/GoogleSDKFirstProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0044A171167E9AC500CCC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleSDKFirstProject.app/GoogleSDKFirstProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSDKFirstProject/GoogleSDKFirstProject-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSDKFirstProjectTests/GoogleSDKFirstProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0044A12D167E9AC400CCC76C /* Build configuration list for PBXProject "GoogleSDKFirstProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0044A16A167E9AC500CCC76C /* Debug */,
+				0044A16B167E9AC500CCC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0044A16C167E9AC500CCC76C /* Build configuration list for PBXNativeTarget "GoogleSDKFirstProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0044A16D167E9AC500CCC76C /* Debug */,
+				0044A16E167E9AC500CCC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0044A16F167E9AC500CCC76C /* Build configuration list for PBXNativeTarget "GoogleSDKFirstProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0044A170167E9AC500CCC76C /* Debug */,
+				0044A171167E9AC500CCC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0044A12A167E9AC400CCC76C /* Project object */;
+}
